@@ -1,0 +1,1 @@
+cat ./var/log/nginx_proxy/access.log | cut -f1 -d ' ' | uniq | sort -g -r > ./access_log_ip.log
